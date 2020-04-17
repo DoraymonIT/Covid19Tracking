@@ -1,0 +1,58 @@
+<nav class="navbar navbar-dark bg-dark box-shadow">
+  <ul class="navbar-nav">
+    <li class="nav-item active">
+      <a class="nav-link" href="#">
+        <h4><img [src]="cheminImage" alt='imageAcceuil' width="35px" height="40px" style="padding-bottom: 7px;" />
+          COVID-19 Worldwide Confirmed Cases</h4>
+      </a>
+    </li>
+  </ul>
+  <form class="form-inline my-2 my-lg-0">
+    <div class="hSearch"><a style="text-decoration: none;color: white;" href="#footer"><i class="fas fa-database"></i> Data</a></div>
+    <div class="hSearch"><a style="text-decoration: none;color: white;" target="new_blank" href="https://www.buymeacoffee.com"><i class="icon-usd"></i> Buy Me a Coffee</a></div>
+
+  </form>
+</nav>
+<!-- Button trigger modal -->
+
+
+<!-- Modal
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content mo">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Search for country</h5>
+        <button style="color:white" type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form class="form-inline">
+          <input class="form-control mr-sm-6" [(ngModel)]="countryName" [ngModelOptions]="{standalone: true}"
+            type="search" placeholder="Search" aria-label="Search">
+          <button type="button" class="btn btn-primary" (click)="searching(countryName)">Save changes</button>
+
+        </form>
+
+      </div>
+      <div class="modal-footer" id="clear" style="background-color: red;" (click)="clearing()" >
+
+          <div >{{ searchingData[0].country }}</div>
+          <div >{{searchingData[0].totalcases}}</div>
+          <br>
+              <div class="col-md-6">Recovery : </div>
+              <div class="col-md-6" style="color: green;">{{searchingData[0].recovered }}</div>
+              <div class="col-md-6">Deaths :</div>
+              <div class="col-md-6" style="color: red;"> {{searchingData[0].totaldeaths}}</div>
+
+
+          <hr>
+
+
+        <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal" cl>Close</button> -->
+        <!-- <button type="button" class="btn btn-primary" (click)="clean()">Clean and search again</button> -->
+      <!-- </div>
+    </div>
+  </div>
+</div> -->

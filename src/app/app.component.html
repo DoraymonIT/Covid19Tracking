@@ -1,0 +1,47 @@
+<header>
+  <app-top-bar></app-top-bar>
+</header>
+<div class="container-fluid">
+  <div class="row">
+
+    <div class="col-md-3 cases">
+
+      <app-side-bar1></app-side-bar1>
+    </div>
+    <div class="col-md-9 deaths">
+      <app-side-bar2></app-side-bar2>
+      <div class="row">
+
+        <!-- <h4 style="text-align: center;">Analysis and graphics Stats over the world</h4> -->
+
+        <div class="col-md-6">
+          <h5 style="text-align: center; padding: 10px;color: whitesmoke;">Timeline of CoronaVirus In Morocco</h5>
+          <app-line-bar></app-line-bar>
+        </div>
+        <div class="col-md-6">
+          <h5 style="text-align: center; padding: 10px;color: whitesmoke;">The Total Stats Over the World</h5>
+          <app-circle-bar></app-circle-bar>
+        </div>
+        <div class="col-md-12 ">
+          <h4 style="text-align: center; padding: 10px;margin:10px;color: whitesmoke;"> Morocco : Last News about
+            Coronavirus ( Covid19 )</h4>
+
+          <app-side-bar3></app-side-bar3>
+        </div>
+        <div class="col-md-12">
+          <h4 style="text-align: center; padding: 10px;margin:10px;color: whitesmoke;">TimeLine CoronaVirus In Morocco
+            Country </h4>
+          <app-time-line></app-time-line>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+</div>
+<footer>
+  <app-footer></app-footer>
+</footer>
+
+<router-outlet></router-outlet>

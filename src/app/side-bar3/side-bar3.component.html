@@ -1,0 +1,32 @@
+<div class="container-fluid morocco">
+  <div class="row" style="padding: 10px;margin: 8px;">
+    <div class="col-md-3">
+      <img src = "https://raw.githubusercontent.com/NovelCOVID/API/master/assets/flags/ma.png" width="160px" style="border-radius:10px;"/>
+      <h2 style="text-align: center;">{{  caseees[0].country }}</h2>
+       <br>
+      <h5 style="text-align: center;" >التحاليل</h5>
+      <h2 style="text-align: center;" class="fadeInDown">{{  caseees[0].tests  |  number: "1.0"  }}</h2>
+    </div>
+    <div class="col-md-3" >
+      <h4>الحالات المؤكدة</h4>
+      <h2 >{{  caseees[0].cases  |  number: "1.0"  }}</h2>
+      <br>
+      <h6>Today Cases</h6>
+      <h2>{{  caseees[0].todayCases   |  number: "1.0" }}</h2>
+    </div>
+    <div class="col-md-3">
+      <h4>المتعافون</h4>
+      <h2 style="color: green;">{{  caseees[0].recovered  |  number: "1.0"  }}</h2>
+      <br>
+      <h6>Today Recovered</h6>
+      <h2 style="color: green;">{{  caseees[0].recovered  |  number: "1.0"  }}</h2>
+    </div>
+     <div class="col-md-3">
+      <h4>الوفيات</h4>
+      <h2 style="color: red;">{{  caseees[0].deaths  |  number: "1.0"  }}</h2>
+      <br>
+      <h6>Today Deaths</h6>
+      <h2 style="color: red;">{{  caseees[0].todayDeaths  |  number: "1.0"  }}</h2>
+    </div>
+  </div>
+</div>

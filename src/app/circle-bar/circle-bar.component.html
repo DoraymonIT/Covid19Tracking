@@ -1,0 +1,12 @@
+<div class="container circle">
+  <div class="row">
+    <div class="col-md-12">
+      <canvas  width="400" height="300" ngChartjs [chartType]="chartType" [datasets]="chartDatasets" [labels]="chartLabels" [colors]="chartColors"
+        [options]="chartOptions" [legend]="true" (chartHover)="chartHovered($event)" (chartClick)="chartClicked($event)"
+        style="    margin-top: 20px;
+      margin-bottom: 20px;">
+      </canvas>
+
+    </div>
+  </div>
+</div>
