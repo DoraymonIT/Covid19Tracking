@@ -1,0 +1,17 @@
+<div class="container sidebar2">
+  <h2 style="text-align: center;color:white" class="animated  bounceInLeft delay-2s"><i class="fas fa-chart-line"></i> Stats over the world</h2>
+  <div class="row" style="padding-top: 50px;margin: 8px;">
+    <div class="col-md-4 animated  fadeInDown delay-2s">
+      <h3>Infected</h3>
+      <h1 >{{  Caseees[0].cases  |  number: "1.0"  }}</h1>
+    </div>
+    <div class="col-md-4 animated  fadeInDown delay-3s" >
+      <h3>Recovery</h3>
+      <h1 style="color: green;">{{  Caseees[0].recovered  |  number: "1.0"  }}</h1>
+    </div>
+    <div class="col-md-4 animated  fadeInDown delay-4s">
+      <h3>Deaths</h3>
+      <h1 style="color: red;">{{  Caseees[0].deaths  |  number: "1.0"  }}</h1>
+    </div>
+  </div>
+</div>

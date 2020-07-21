@@ -1,0 +1,90 @@
+<div class="container-fluid morocco">
+  <div class="row" style="padding: 10px;margin: 8px; text-align: center;">
+    <div class="col-md-3">
+      <img src="https://disease.sh/assets/img/flags/ma.png" width="160px"
+        style="border-radius:10px;" />
+      <h2 style="text-align: center;">{{  caseees[0].country }}</h2>
+      <h2> المغرب</h2>
+    </div>
+    <div class="col-md-3">
+      <h4>Total Cases</h4>
+      <h2>{{  caseees[0].cases  |  number: "1.0"  }}</h2>
+      <br>
+      <h6>Today Cases</h6>
+      <h2>{{  caseees[0].todayCases   |  number: "1.0" }}</h2>
+    </div>
+    <div class="col-md-3">
+      <h4>Total Recovered</h4>
+      <h2 style="color: green;">{{  caseees[0].recovered  |  number: "1.0"  }}</h2>
+      <br>
+    </div>
+    <div class="col-md-3">
+      <h4>Total Deaths</h4>
+      <h2 style="color: red;">{{  caseees[0].deaths  |  number: "1.0"  }}</h2>
+      <br>
+      <h6>Today Deaths</h6>
+      <h2 style="color: red;">{{  caseees[0].todayDeaths  |  number: "1.0"  }}</h2>
+    </div>
+  </div>
+</div>
+<!-- <div class="container-fluid morocco">
+  <div class="row" style="padding: 10px;margin: 8px; text-align: center;">
+    <div class="col-md-3">
+      <div class="card text-white bg-dark">
+        <h6>{{regions[0].data.statics[0].region}}</h6><hr>
+        <h5>{{regions[0].data.statics[0].cases}}</h5>
+      </div><br>
+      <div class="card text-white bg-dark">
+        <h6>{{regions[0].data.statics[1].region}}</h6><hr>
+        <h5>{{regions[0].data.statics[1].cases}}</h5>
+      </div><br>
+      <div class="card text-white bg-dark">
+        <h6>{{regions[0].data.statics[6].region}}</h6><hr>
+        <h5>{{regions[0].data.statics[6].cases}}</h5>
+      </div><br>
+    </div>
+    <div class="col-md-3">
+      <div class="card text-white bg-dark">
+        <h6>{{regions[0].data.statics[3].region}}</h6><hr>
+        <h5>{{regions[0].data.statics[3].cases}}</h5>
+      </div><br>
+      <div class="card text-white bg-dark">
+        <h6>{{regions[0].data.statics[4].region}}</h6><hr>
+        <h5>{{regions[0].data.statics[4].cases}}</h5>
+      </div><br>
+      <div class="card text-white bg-dark">
+        <h6>{{regions[0].data.statics[5].region}}</h6><hr>
+        <h5>{{regions[0].data.statics[5].cases}}</h5>
+      </div><br>
+    </div>
+    <div class="col-md-3">
+      <div class="card text-white bg-dark">
+        <h6>{{regions[0].data.statics[2].region}}</h6><hr>
+        <h5>{{regions[0].data.statics[2].cases}}</h5>
+      </div><br>
+      <div class="card text-white bg-dark">
+        <h6>{{regions[0].data.statics[7].region}}</h6><hr>
+        <h5>{{regions[0].data.statics[7].cases}}</h5>
+      </div><br>
+      <div class="card text-white bg-dark">
+        <h6>{{regions[0].data.statics[8].region}}</h6><hr>
+        <h5>{{regions[0].data.statics[8].cases}}</h5>
+      </div><br>
+    </div>
+    <div class="col-md-3 ">
+      <div class="card text-white bg-dark">
+        <h6>{{regions[0].data.statics[9].region}}</h6><hr>
+        <h5>{{regions[0].data.statics[9].cases}}</h5>
+      </div><br>
+      <div class="card text-white bg-dark">
+        <h6>{{regions[0].data.statics[10].region}}</h6><hr>
+        <h5>{{regions[0].data.statics[10].cases}}</h5>
+      </div><br>
+      <div class="card text-white bg-dark">
+        <h6>{{regions[0].data.statics[11].region}}</h6><hr>
+        <h5>{{regions[0].data.statics[11].cases}}</h5>
+      </div><br>
+    </div>
+
+  </div>
+</div> -->

@@ -1,0 +1,38 @@
+.cases{
+  /* height: 100%; */
+  background-color: rgb(144, 144, 144);
+
+}
+.deaths{
+  background-color: rgb(61, 61, 61);
+
+}
+.pipe{background-color: rgb(36, 36, 36);}
+
+.h{
+  margin:8px;
+  padding:4px;
+  color: white;
+}
+.hSearch{
+  margin:8px;
+  padding:4px;
+  color: white;
+}
+
+.hSwitxh{
+  margin:8px;
+  padding:4px;
+  color: white;
+}
+
+.box-shadow{
+  top: 0;
+  z-index: 5;
+  /* height: 60px; */
+  box-shadow: 0px 2px 2px 1.5px #1f2225;
+}
+.mo{
+  background-color: #343a40;
+  color: white;
+}
