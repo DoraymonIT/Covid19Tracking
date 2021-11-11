@@ -16,6 +16,8 @@ import { CircleBarComponent } from './circle-bar/circle-bar.component';
 import { LineBarComponent } from './line-bar/line-bar.component';
 import { TimeLineComponent } from './time-line/time-line.component';
 import { FooterComponent } from './footer/footer.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,8 @@ import { FooterComponent } from './footer/footer.component';
     HttpClientModule,
     FormsModule,
     NgChartjsModule,
-    CountToModule
+    CountToModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
 
   ],
   providers: [],
